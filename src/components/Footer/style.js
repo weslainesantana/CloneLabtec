@@ -7,7 +7,6 @@ export const FooterContainer = styled.div`
     width: 100%;
     height: 350px;
     background-color: #061314;
-    padding: 32px;
 
 `
 
@@ -28,12 +27,19 @@ export const FooterLink = styled.a`
 
 `
 export const FooterLogos =styled.img`
-    width: 100px;
-    margin: 16px 30px;
+    height: 70px;
+    object-fit: contain;
+    margin: 20px 20px 10px 30px;
 `
 
 export const FooterLogosMenores = styled.img`
-   
-    width: 170px;
-    margin: 1px 30px 16px;
+    height: 40px;
+    object-fit: contain;
+    margin: 20px 20px 10px 20px;
+`
+export const contentsLogos = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    padding:60px ;
 `
