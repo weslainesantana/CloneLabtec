@@ -9,7 +9,6 @@ export const FooterContainer = styled.div`
     background-color: #061314;
 
 `
-
 export const FooterText = styled.h1`
     color: #eff0f0;
     font-size: 1.2rem;
@@ -37,7 +36,7 @@ export const FooterLogosMenores = styled.img`
     object-fit: contain;
     margin: 20px 20px 10px 20px;
 `
-export const contentsLogos = styled.div`
+export const ContentsLogos = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;   
