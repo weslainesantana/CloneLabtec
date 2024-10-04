@@ -9,12 +9,23 @@ import {
   FormContent,
   InputEmail,
   ButtonSubscribe,
+  TitlePrimaryContainer,
+  TextBodyPrimaryContainer,
 } from "./style";
 
 function App() {
   return (
     <AppContainer>
       <ParentContainer>
+        <TitlePrimaryContainer>Engenharia de Computação</TitlePrimaryContainer>
+
+        <TextBodyPrimaryContainer>
+          O curso tem como objetivo proporcionar aos acadêmicos conhecimentos
+          técnicos e científicos nas áreas que integram hardware e software.
+          Adquira conhecimento nas áreas de Inteligência Artificial, Internet
+          das Coisas (IoT), Segurança da Informação e Análise de Sistemas.
+        </TextBodyPrimaryContainer>
+
         <BoxNewsletter>
           <Newsletter>
             <TitleNewsletter>

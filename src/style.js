@@ -7,7 +7,20 @@ export const AppContainer = styled.div`
     height: 100vh;
     background-color: white;
     `
-    export const TitleNewsletter = styled.h2`
+export const TitlePrimaryContainer = styled.h1`
+    font-size:1.2rem ;
+    align-items: center;
+    color: black;
+`
+export const TextBodyPrimaryContainer = styled.p`
+    margin-top: 25px;
+    width: 620px;
+    color: black;
+
+    
+`
+
+export const TitleNewsletter = styled.h2`
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
     font-weight: 100;
@@ -19,7 +32,8 @@ export const AppContainer = styled.div`
     font-size: 1rem;
     color: white;
     text-align: center;
-    margin: 45px;
+    margin: 45px 70
+    ;
   `;
 
 export const Newsletter = styled.div`
@@ -38,7 +52,6 @@ export const ParentContainer = styled.div`
     justify-content: center;
     height: 100vh;
     flex-direction: column;
-
 `
 
 export const BoxNewsletter = styled.div`
