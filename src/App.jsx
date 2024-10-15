@@ -11,21 +11,34 @@ import {
   ButtonSubscribe,
   TitlePrimaryContainer,
   TextBodyPrimaryContainer,
+  ComputacaoImage,
+  ContainerImage,
+  TextBody2,
+  ComputacaoImage2,
+
 } from "./style";
+
+import computacao2 from "./assets/computacao.svg"
 
 function App() {
   return (
     <AppContainer>
       <ParentContainer>
-        <TitlePrimaryContainer>Engenharia de Computação</TitlePrimaryContainer>
+        <ContainerImage>
+          <ComputacaoImage2>
+            <ComputacaoImage src={computacao2} alt="Descrição da imagem" />
+          </ComputacaoImage2>
+          <TextBody2>
+            <TitlePrimaryContainer>Engenharia de Computação</TitlePrimaryContainer>
 
-        <TextBodyPrimaryContainer>
-          O curso tem como objetivo proporcionar aos acadêmicos conhecimentos
-          técnicos e científicos nas áreas que integram hardware e software.
-          Adquira conhecimento nas áreas de Inteligência Artificial, Internet
-          das Coisas (IoT), Segurança da Informação e Análise de Sistemas.
-        </TextBodyPrimaryContainer>
-
+            <TextBodyPrimaryContainer>
+              O curso tem como objetivo proporcionar aos acadêmicos conhecimentos
+              técnicos e científicos nas áreas que integram hardware e software.
+              Adquira conhecimento nas áreas de Inteligência Artificial, Internet
+              das Coisas (IoT), Segurança da Informação e Análise de Sistemas.
+            </TextBodyPrimaryContainer>
+          </TextBody2>
+        </ContainerImage>
         <BoxNewsletter>
           <Newsletter>
             <TitleNewsletter>

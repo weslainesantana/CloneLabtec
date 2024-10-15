@@ -7,16 +7,38 @@ export const AppContainer = styled.div`
     height: 100vh;
     background-color: white;
     `
-export const TitlePrimaryContainer = styled.h1`
-    font-size:1.2rem ;
+export const ContainerImage = styled.div`
+    
+    display: flex;
+
     align-items: center;
+    margin-top: 20px;
+`
+export const ComputacaoImage2 = styled.div`
+
+`
+export const TextBody2 = styled.div`
+
+`
+export const ComputacaoImage = styled.img`
+ 
+    width: 350px;
+    height: 489px;
+    margin-right: 20px;
+`
+
+export const TitlePrimaryContainer = styled.h1`
+    font-family: sans-serif;
+    font-size:40px;
     color: black;
+    
 `
 export const TextBodyPrimaryContainer = styled.p`
+    font-family: sans-serif;
     margin-top: 25px;
     width: 620px;
     color: black;
-
+    font-size: 16px;
     
 `
 
@@ -26,15 +48,14 @@ export const TitleNewsletter = styled.h2`
     font-weight: 100;
     color: white;
     text-align: center;
-  `;
-  
-  export const ParagraphNewsletter = styled.p`
+  `
+
+export const ParagraphNewsletter = styled.p`
     font-size: 1rem;
     color: white;
     text-align: center;
     margin: 45px 70
-    ;
-  `;
+  `
 
 export const Newsletter = styled.div`
 form {
@@ -42,9 +63,8 @@ form {
   justify-content: center;
   margin-top: 20px;
   
-
 }
-`;
+`
 
 export const ParentContainer = styled.div`
     display: flex;
